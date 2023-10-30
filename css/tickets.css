@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ColorWhite {
+    color: white;
+}
+
+.ColorGrey {
+    color: rgb(147, 144, 144);
+}
+
+.ColorGreen {
+    color: rgb(59, 186, 59);
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background-color: #2f3133;
+    padding-left: 10px;
+}
+
+.Navegación {
+    /* hago que los elementos se pongan en bloque */
+    display: flex;
+    flex-direction: row;
+    align-items:justify;
+}
+
+header nav ul li {
+    /* esto hace que el listado no tenga la item del circulito */
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+.linkNavegacion {
+    text-decoration: none;
+}
